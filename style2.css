@@ -1,0 +1,175 @@
+/* Alinhamento de Texto */
+html, body {
+text-align: center;
+}
+p {text-align: left;}
+
+/* Fundo */
+body {	
+	margin: 0;
+	padding: 0;
+	background: #EFEFEF;
+	text-align: left;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #F1F5F8;
+}
+/* Alinhamento de Texto */
+*
+{
+  margin: 0 auto 0 auto;
+ text-align:left;
+}
+
+/* Alinhamento de Texto */
+html, body {
+		background-image: url("background.png");
+text-align: center;
+}
+p {text-align: left;}
+
+/* Formatação do Texto do Cabeçalho (posição/estilo)(Math Helper) (Título) */
+#cabecalho h1
+{
+display:block;
+float:left;
+line-height:70px;
+margin-left:17px;
+width:200px;
+color:#42402f;
+text-align:left;
+font-size:24px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+float:left;
+
+}
+
+/* Formatação do Texto do Cabeçalho (posição/estilo) (Opções)*/
+#cabecalho ul li , #cabecalho ul li a, #cabecalho ul li a:visited{
+	display:block;
+	float:left;
+	margin: 0px;
+	text-align:right;
+	line-height:72px;
+	width:195px;
+	color:#42402f;
+
+	font-size:17px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+/* Formatação do Texto do Cabeçalho (Opções) (Quando se passa o rato por cima da opção) */
+#cabecalho ul li a:hover{
+color:#d1c360;
+}
+
+/* Margem da Página de Texto */
+#main 
+{
+margin-top:20px;
+margin-bottom:20px;
+}
+
+/* Design Inicial da Página de Texto */
+#main .main_top
+{
+height:85px;
+width:921px;
+background-image:url(main_top.png);
+background-repeat:no-repeat;
+}
+
+/* Imagem da Página de Texto */
+#main .main_body
+{
+
+padding-left:0px;
+height:auto;
+width:921px;
+background-image:url(main_body.png);
+background-repeat:repeat-y;
+color:#000000;
+padding-bottom:20px;
+}
+
+/* Formatação do título da Página de Texto */
+#main .main_top h1
+{
+font-size:24px;
+line-height:85px;
+color:#42402f;
+padding-left:25px;
+background-image:url(cabecalho_h1_bg.png);
+background-position:right;
+background-repeat:no-repeat;
+margin-right:25px;
+}
+
+/* Formatação da Página de Texto */
+#main .main_body p
+{
+line-height:19px;
+letter-spacing:1px;
+padding-bottom:15px;
+padding-left:20px;
+padding-right:450px;
+}
+
+/* Design Final da Página de Texto */
+#main .main_bottom
+{
+height:8px;
+width:921px;
+background-image:url(main_bottom.png);
+background-repeat:no-repeat;
+}
+
+/* Formatação da Página Web(Baixa o gráfico) */
+#pagina
+{
+  margin: 0 auto 0 auto; 
+  margin-top:35px;
+  display: block; 
+  height:auto;
+  position: relative; 
+  overflow: hidden; 
+  width: 921px;
+}
+
+/* Formatação do Cabeçalho */
+#cabecalho
+{
+background-image:url(cabecalho.png);
+background-repeat:no-repeat;
+width:921px;
+height:72px;
+}
+
+/* Formatação do Rodapé */
+#rodape {
+display:block;
+width: 921px;
+height:74px;
+background: url(rodape.png) no-repeat;
+text-align:right;
+font-size:9px;
+line-height:75px;
+}
+
+/* Alinhamento da Letra do Rodapé */
+#rodape p{
+padding-right:20px;
+text-align:right;
+}
+
+/* Letra do Rodapé */
+#rodape, #rodape a, #rodape a:visited{
+color:#42402f;
+}
+/* Formatação do Texto do Rodapé (Quando se passa o rato por cima da opção) */
+#rodape a:hover{
+text-decoration:none;
+color:#d1c360;
+}
